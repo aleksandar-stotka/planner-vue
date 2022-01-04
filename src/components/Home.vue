@@ -1,12 +1,11 @@
 <template>
   <div>
-    <div v-if="projects.length">
+    <div class="container" v-if="projects.length">
       <div v-for="project in projects" :key="project.id">
         <SingleProgect
           :project="project"
           @delete="deleteProjects"
           @complete="handleComplete"
-          @edit="editProject"
         />
       </div>
     </div>
@@ -52,5 +51,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+}
+.container {
+  padding: 2em;
 }
 </style>

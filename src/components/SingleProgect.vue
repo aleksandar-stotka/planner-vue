@@ -50,6 +50,7 @@ export default {
         this.$emit("complete", this.project.id);
       }); //patch koga sakame da opfatime samo del od objectot
     },
+    editProject() {},
   },
 };
 </script>

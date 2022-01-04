@@ -23,7 +23,11 @@ export default {
         details: this.details,
         complete: false,
       };
-      console.log(project);
+      fetch("http://localhost:3001/projects", {
+        method: "POST",
+        headers: { "Content-type": "application/json" },
+        body: JSON.stringify(project),
+      });
     },
   },
 };

@@ -4,13 +4,13 @@
       "id": 1,
       "title": "Create new homepage banner",
       "details": "Lorem Ispum",
-      "complete": true
+      "complete": false
     },
     {
-      "id": 2,
-      "title": "Create new email address",
-      "details": "Lorem Ispum",
-      "complete": true
+      "title": "Make new Password",
+      "details": "this password wil be for me",
+      "complete": false,
+      "id": 2
     }
   ]
 }
