@@ -4,9 +4,13 @@
       <div class="actions">
         <h3 @click="showDetails">{{ project.title }}</h3>
         <div class="icons">
-          <span @click="editProgect" class="material-icons">
-            edit
-          </span>
+          <router-link
+            :to="{ name: 'editProject', params: { id: project.id } }"
+          >
+            <span @click="editProgect" class="material-icons">
+              edit
+            </span>
+          </router-link>
 
           <span @click="deleteProjects" class="material-icons">
             delete
@@ -50,7 +54,6 @@ export default {
         this.$emit("complete", this.project.id);
       }); //patch koga sakame da opfatime samo del od objectot
     },
-    editProject() {},
   },
 };
 </script>
