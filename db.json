@@ -1,12 +1,6 @@
 {
   "projects": [
     {
-      "title": "Make new Password",
-      "details": "this password wil be for me",
-      "complete": true,
-      "id": 2
-    },
-    {
       "title": "make a new data",
       "details": "make i new data",
       "complete": true,
@@ -15,7 +9,7 @@
     {
       "title": "ackoo",
       "details": "aneta arna e",
-      "complete": true,
+      "complete": false,
       "id": 4
     }
   ]
