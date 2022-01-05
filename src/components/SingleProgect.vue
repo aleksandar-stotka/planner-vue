@@ -66,7 +66,8 @@ export default {
   padding: 10px 20px;
   border-radius: 4px;
   box-shadow: 1px 2px 2px black;
-  border-left: 4px solid red;
+  border-left: 15px solid red;
+
   cursor: pointer;
 }
 .actions {
@@ -75,10 +76,10 @@ export default {
   align-items: center;
 }
 .project.complete {
-  border-left: 4px solid rgb(7, 109, 7);
+  border-left: 4px solid rgb(14, 85, 4);
 }
 .project.complete .tick {
   color: rgb(10, 235, 40);
-  width: 5rem;
+  width: 20px;
 }
 </style>

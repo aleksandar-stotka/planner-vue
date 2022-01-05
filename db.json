@@ -1,16 +1,22 @@
 {
   "projects": [
     {
-      "id": 1,
-      "title": "Create new homepage banner",
-      "details": "Lorem Ispum",
-      "complete": false
-    },
-    {
       "title": "Make new Password",
       "details": "this password wil be for me",
-      "complete": false,
+      "complete": true,
       "id": 2
+    },
+    {
+      "title": "make a new data",
+      "details": "make i new data",
+      "complete": true,
+      "id": 3
+    },
+    {
+      "title": "ackoo",
+      "details": "aneta arna e",
+      "complete": true,
+      "id": 4
     }
   ]
 }

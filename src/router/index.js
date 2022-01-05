@@ -16,9 +16,10 @@ const routes = [
     component: Home,
   },
   {
-    path: "/edit",
+    path: "/projects/:id",
     name: "editProject",
     component: editProject,
+    props: true,
   },
 ];
 
